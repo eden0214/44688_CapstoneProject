@@ -44,3 +44,4 @@ In Module 1, I created an Overleaf account and began the process of understandin
     * I found the image online and saved a .png copy to my Overleaf file.
     * I generated a citation for the image and added it to both the image description as well as the text that summarized the image.
 
+# Module 2 Overview: Data Collection
