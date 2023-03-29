@@ -45,3 +45,26 @@ In Module 1, I created an Overleaf account and began the process of understandin
     * I generated a citation for the image and added it to both the image description as well as the text that summarized the image.
 
 # Module 2 Overview: Data Collection
+
+In Module 2, I curated data from a franchised website and began the process of understanding the data that came with the CSV file.
+* I had already determined the data source when choosing my project.
+    * I verified with the brokers/owners of the company that I could use the information, but that I would need to remove any personal identification information.
+* After downloading the CSV file, I reviewed the attributes and records.
+    * I removed personal identification information: Realtor name and personal information, client names and personal information, and commission amount.
+    * I removed unnecessary information: internal transaction number, Realtor information from other brokerages, dates not related to actual closing, royalty fees, etc.
+    * I also identified the type of information that was contained in each attribute (column).
+* At that point, I began writing the description of the data in my report on Overleaf.  
+    * I described how I attained the information and the fact I was given permission to use this data.
+    * I linked the data within the report, so I learned how to create a hyperlink within LaTeX.
+    * I identified the major attributes for my project: Company, Postal Code, and Sales ID.
+* Finally, I began to describe the data preparation, which will be addressed more thoroughly and finalized in the next module.
+
+# Module 3 Overview: Data Cleaning
+
+# Module 4 Overview: exploratory Data Analysis
+
+# Module 5 Overview: Predictive Analysis
+
+# Module 6 Overview: Interpretation of Results
+
+# Module 6 Overview: Final Project Report
