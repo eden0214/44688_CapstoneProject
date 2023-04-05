@@ -60,6 +60,33 @@ In Module 2, I curated data from a franchised website and began the process of u
 * Finally, I began to describe the data preparation, which will be addressed more thoroughly and finalized in the next module.
 
 # Module 3 Overview: Data Cleaning
+In Module 3, I continued to work with the original data to prepare the data set for further analyzing in Python.
+* I used the CSV file to determine the quality by evaluating its validity, consistency, accuracy, precision, uniformity, and completeness.
+    * I verified that all city names were spelled correctly.
+    * I corrected 37 zip codes to remove the extra 4-digit formatting, so that all zip codes had five digits.
+    * I looked up one incomplete address on the MLS to add the correct missing information. (This was necessary since a precise zip code was needed.  IF I had been looking to fill an attribute like sales volume, I could have used median or mean values.)
+    * I then removed transactions that occurred outside of the Omaha, NE, metropolitan area.
+* At this time, I used the cleaned data to create a new CSV file that contained only the cleaned data set.
+    * The new data file contained 3140 records.
+    * Unnecessary/irrelevant attributes were removed.
+    * I reformatted the attribute/column headings by removing spaces and adding underscores, so that they were easier to use in Python.
+    * As a result, the new, clean CSV file had 3140 records and 7 attributes.
+* The following major data attributes remained in the data set.
+    * Office - Home office of a Realtor
+    * Property Address - Street name and number of a transaction
+    * City - City of a transaction (all within the Omaha, NE, metropolitan area)
+    * State - State of a transaction (all Nebraska)
+    * Zip/Postal Code - Zip code associated with a transaction
+    * Actual Close Date - Closed date verifies occurred in 2022 window
+    * Sales ID - Internal number that references specific Realtor of a transaction
+* At this point, the independent variable was identified as the Office ID, which will be used to evaluate locations of the transactions.
+* The dependent variables were identified as the Zip Code and Sales ID, which each will be compared to the Office ID to determine if there is a correlation.
+* The CSV file was then imported into JupyterLab for further data preparation.
+    * Python was used to verify that the data was clean.
+    * Python was used to verify that there were no null values in the main attributes.
+    * Python was used to identify the data type of the dependent and independent variables - all integers.
+    * Finally, Python was used to create visualizations that allowed the data distribution to be reviewed.
+* At this point, we were able to conclude that the data was indeed quality data that can be used to determine if a correlation exists between an office location and where a transaction occurs.
 
 # Module 4 Overview: exploratory Data Analysis
 
