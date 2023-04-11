@@ -93,7 +93,7 @@ In Module 4, I began the data analysis portion of the project by performing the 
 
 Exploratory data analysis is essential to all data science and data analytics projects because it allows the scientist/analyst to evaluate the data before assumptions are made.  Identifying errors, outliers, and anomalies allows for the scientist/analyst to gain a better understanding that can help them to form a more focused hypothesis:  By performing EDA, the scientist/analyst can ask better questions, which then leads to a better focus, and thus a probable better outcome for the client.  In essence, performing EDA helps the scientist/analyst to move towards a better model, which will most likely result in a more trustworthy, complete outcome for the client.
 
-*There are four main types of EDA:
+* There are four main types of EDA:
     * Univariate non-graphical:  A simple form of data analysis that is comprised of one variable.  Because of this, there are no causal relationships, and the main purpose is to find patterns within the single variable.
     * Univariate graphical: Similar to the univariate non-graphical method, the univariate graphical method deals with just one variable.  The difference, however, comes from the visualization of the patterns.  (Most common: stem-and-leaf plots, histograms, and boxplots)
     * Multivariate non-graphical: A form of analysis that shows a relationship between 2+ variables. This analysis typically occurs through cross-tabulation or statistics. 
