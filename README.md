@@ -88,7 +88,32 @@ In Module 3, I continued to work with the original data to prepare the data set 
     * Finally, Python was used to create visualizations that allowed the data distribution to be reviewed.
 * At this point, we were able to conclude that the data was indeed quality data that can be used to determine if a correlation exists between an office location and where a transaction occurs.
 
-# Module 4 Overview: exploratory Data Analysis
+# Module 4 Overview: Exploratory Data Analysis
+In Module 4, I began the data analysis portion of the project by performing the Exploratory Data Analysis (EDA).  EDA is a process to review the data by investigating the data set to summarize and analyze the attributes in order to gain a better understanding of what the data set has to offer.  EDA often involves visualization to demonstrate any patterns and potential relationships between the variables.  Making EDA an important part of the data analytics process allows for the data scientist (or analyst) to find outliers/anomalies, test hypotheses, and to check assumptions.  Statistical summaries and different visualization techniques are used to summarize the data and present it in multiple ways, so the best understanding of the data can be developed.
+
+Exploratory data analysis is essential to all data science and data analytics projects because it allows the scientist/analyst to evaluate the data before assumptions are made.  Identifying errors, outliers, and anomalies allows for the scientist/analyst to gain a better understanding that can help them to form a more focused hypothesis:  By performing EDA, the scientist/analyst can ask better questions, which then leads to a better focus, and thus a probable better outcome for the client.  In essence, performing EDA helps the scientist/analyst to move towards a better model, which will most likely result in a more trustworthy, complete outcome for the client.
+
+*There are four main types of EDA:
+    * Univariate non-graphical:  A simple form of data analysis that is comprised of one variable.  Because of this, there are no causal relationships, and the main purpose is to find patterns within the single variable.
+    * Univariate graphical: Similar to the univariate non-graphical method, the univariate graphical method deals with just one variable.  The difference, however, comes from the visualization of the patterns.  (Most common: stem-and-leaf plots, histograms, and boxplots)
+    * Multivariate non-graphical: A form of analysis that shows a relationship between 2+ variables. This analysis typically occurs through cross-tabulation or statistics. 
+    * Multivariate graphical: Like the univariate graphical analysis, the multivariate graphical analysis uses visualization to display relationships between the 2+ variables.  (Most common: grouped bar plot, bar chart; other common: scatter plot, heat map, bubble chart)
+* For my project, I found using the graphical methods to be more useful.  I first used histograms and boxplots to determine patterns and look for outliers.  I then used a scatterplot and heat map to analyze possible  correlations.
+
+I followed these steps/techniques to perform the EDA on my data set. 
+1. After cleaning the data, I imported the CSV file into a JupyterLab notebook, where I had already imported the necessary Python modules (numpy, pandas, matplotlib, and seaborn).
+1. The first thing I did in my notebook was check the data to verify that the columns imported matched my CSV file using the command data.columns.
+1. I then previewed the data to make sure it was displaying correctly using the command data.describe.
+Next, I verified that there were not any null values in my data by running the command data.isnull().any().
+1. I then verified that all the main attributes of my data were numerical by running the command data.OFFICE.head() (or ZIP_POSTAL_CODE and SALES_ID), which returned that it was dtype: int64.
+1. I next ran a command to visualize the OFFICE data in a boxplot with data.boxplot('OFFICE'), which showed that the there were no outliers.
+1. I generated histograms for both the ZIP_POSTAL_CODE and SALES_ID attributes to analyze the distribution of data by running the command data.hist().
+1. I looked at the statistical information by running the command data.describe().
+1. After that, I began to explore multivariate visuals to look for patterns and causal relationships by generating a heatmap (sns.heatmap()) and a scatterplot (sns.relplot()).
+
+During this phase, there were a a couple insights that could be drawn from this process.
+* The biggest insight that I am learning is that there might not be the correlation I was looking for (office locations affecting transaction locations).  There is a slight correlation between SALES_ID and ZIP_POSTAL_CODE, which could prove to be valuable information for my brokers.
+* In addition, I am starting to better understand which visualizations help me understand the data more comprehensively:  For example, I appreciated the heatmap showing correlation, and while I found the boxplot of the OFFICE_ID variable to be helpful, it did not generate further understanding.  Similarly, using scatterplots may not be a helpful tool, since the SALES_ID attribute is not evenly distributed numerically.
 
 # Module 5 Overview: Predictive Analysis
 
