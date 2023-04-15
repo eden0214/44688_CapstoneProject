@@ -116,7 +116,7 @@ During this phase, there were a a couple insights that could be drawn from this 
 * In addition, I am starting to better understand which visualizations help me understand the data more comprehensively:  For example, I appreciated the heatmap showing correlation, and while I found the boxplot of the OFFICE_ID variable to be helpful, it did not generate further understanding.  Similarly, using scatterplots may not be a helpful tool, since the SALES_ID attribute is not evenly distributed numerically.
 
 # Module 5 Overview: Predictive Analysis
-In Module 5, I continued the data analysis process by moving into the Predictive Analysis phase of my project.  Predictive analyiss is the process of using the data set within a Machine Learning (ML) Pipeline by using an ML algorithm to generate a model that can be used to help make predictions for business decisions. An ML pipeline has 5 steps, and I have already completed the first 3: Data Collection (Module 2), Data Cleaning (Module 3), and Feature Extraction (Module 4).  In this module, I completed the fourth step, Model Validation, and I will complete the fifth step, Visualization, as a part of the next module.
+In Module 5, I continued the data analysis process by moving into the Predictive Analysis phase of my project.  Predictive analysis is the process of using the data set within a Machine Learning (ML) Pipeline by using an ML algorithm to generate a model that can be used to help make predictions for business decisions. An ML pipeline has 5 steps, and I have already completed the first 3: Data Collection (Module 2), Data Cleaning (Module 3), and Feature Extraction (Module 4).  In this module, I completed the fourth step, Model Validation, and I will complete the fifth step, Visualization, as a part of the next module.
 
 Model validation is the process of using a data set to train and test a Machine Learning algorithm with the ultimate goal of creating a model that can be used to help guide business decisions.  (An ML algorithm is computer code that adapts to data by recognizing patterns and learning from them to produce a model.)  Before I could proceed, I had to determine which ML algorithms could work with my data set.  To do this, I used the following visualization:
 
@@ -124,7 +124,26 @@ Model validation is the process of using a data set to train and test a Machine 
 
 This visualization shows that the relationship between the variables is not linear, so it helped me rule out using any Linear Regression models.  I concluded that using a Classification model would be most appropriate for my data set.
 
-I tested 3 different Machine Learning algorithms using Python in a JupyterLab Notebook.  You can find the full code here: [Anderson_Capstone JupyterLab Notebook](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson_Capstone.ipynb). 
+I tested 3 different Machine Learning algorithms using Python in a JupyterLab Notebook.  I chose to use the Classification ML algorithms K Number Neighbors (KNN), K Means Clustering, and Random Forest. You can find the full code here: [Anderson_Capstone JupyterLab Notebook](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson_Capstone.ipynb). 
+
+In order to prepare the data to be used in the ML Algorithm in Python, I first had to split the data into training and testing sets.  To prepare for this step, I defined the X and y variables, which allowed me to generate  training and testing variables. After defining the variables, I used the sklearn module train_test_plit to create the X_train, y_train, X_test, and y_test variables.
+
+For each of the modules, I completed the following steps.
+1. I imported the sklearn module.  
+    1. KNeighborsClassifier for K Number Neighbors
+    1. KMeans for K Means Cluster
+    1. RandomForestClassifier for Random Forest
+1. I ran the training data variables through the model.
+    1. For the KNN model, I experimented with the number of neighbors by testing the n_neighbors variable with constants 2 through 12 to see which produced the best results (measured in the next step).
+    1. For the K Means, I experimented with the number of clusters by testing the n_clusters variable with constants 2 through 12 to see which produced the best results (measured in the next step).
+1. I tested the accuracy of each model by importing the sklearn accuracy_score module to evaluate the accuracy of the model using the test data.
+1. I then used three additional measurements of success (error) to test each model.
+    1. Mean Absolute Error (MAE)
+    1. Mean Squared Error (MSE)
+    1. Confusion Matrix
+1. I compared the results of all the measurements side-by-side by creating a table.
+
+![Window Example](Table_of_Conclusions.png)
 
 # Module 6 Overview: Interpretation of Results
 
