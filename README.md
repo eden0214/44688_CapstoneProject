@@ -116,6 +116,15 @@ During this phase, there were a a couple insights that could be drawn from this 
 * In addition, I am starting to better understand which visualizations help me understand the data more comprehensively:  For example, I appreciated the heatmap showing correlation, and while I found the boxplot of the OFFICE_ID variable to be helpful, it did not generate further understanding.  Similarly, using scatterplots may not be a helpful tool, since the SALES_ID attribute is not evenly distributed numerically.
 
 # Module 5 Overview: Predictive Analysis
+In Module 5, I continued the data analysis process by moving into the Predictive Analysis phase of my project.  Predictive analyiss is the process of using the data set within a Machine Learning (ML) Pipeline by using an ML algorithm to generate a model that can be used to help make predictions for business decisions. An ML pipeline has 5 steps, and I have already completed the first 3: Data Collection (Module 2), Data Cleaning (Module 3), and Feature Extraction (Module 4).  In this module, I completed the fourth step, Model Validation, and I will complete the fifth step, Visualization, as a part of the next module.
+
+Model validation is the process of using a data set to train and test a Machine Learning algorithm with the ultimate goal of creating a model that can be used to help guide business decisions.  (An ML algorithm is computer code that adapts to data by recognizing patterns and learning from them to produce a model.)  Before I could proceed, I had to determine which ML algorithms could work with my data set.  To do this, I used the following visualization:
+
+![Window Example](Pairplot_By_Office.png)
+
+This visualization shows that the relationship between the variables is not linear, so it helped me rule out using any Linear Regression models.  I concluded that using a Classification model would be most appropriate for my data set.
+
+I tested 3 different Machine Learning algorithms using Python in a JupyterLab Notebook.  You can find the full code here: [Anderson_Capstone JupyterLab Notebook](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson_Capstone.ipynb). 
 
 # Module 6 Overview: Interpretation of Results
 
