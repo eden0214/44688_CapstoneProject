@@ -100,6 +100,12 @@ Exploratory data analysis is essential to all data science and data analytics pr
     * Multivariate graphical: Like the univariate graphical analysis, the multivariate graphical analysis uses visualization to display relationships between the 2+ variables.  (Most common: grouped bar plot, bar chart; other common: scatter plot, heat map, bubble chart)
 * For my project, I found using the graphical methods to be more useful.  I first used histograms and boxplots to determine patterns and look for outliers.  I then used a scatterplot and heat map to analyze possible  correlations.
 
+![Window Example](Sales_ID_Attribute.png)
+
+![Window Example](Zip_Code_Histogram.png)
+
+![Window Example](Office_Attribute_Boxplot.png)
+
 I followed these steps/techniques to perform the EDA on my data set. 
 1. After cleaning the data, I imported the CSV file into a JupyterLab notebook, where I had already imported the necessary Python modules (numpy, pandas, matplotlib, and seaborn).
 1. The first thing I did in my notebook was check the data to verify that the columns imported matched my CSV file using the command data.columns.
@@ -146,5 +152,31 @@ For each of the modules, I completed the following steps.
 ![Window Example](Table_of_Conclusions.png)
 
 # Module 6 Overview: Interpretation of Results
+In Module 6, I sought to bring the project full circle by addressing how my findings addressed the initial goal/hypothesis.  I wrote a conclusion for my report and used that information to write the abstract at the beginning of the report.
+
+### Related Work
+Before I worked on the conclusion, however, I found work related to my report, so that I could include it in my report.  I used Google Scholar to find articles relating to how to choose a location for a new office, how a Realtor decides which brokerage to join, and how a consumer chooses a Realtor.  I found research articles on each related topic and summarized them within my report.
+
+### Conclusion
+In order to determine the conclusion, I used several visualizations throughout the project, and two images best displayed the information discovered. 
+* I used a map generated in Tableau that showed the distribution of transactions by zip code compared to office locations.
+
+![Window Example](Zip_Code_Map.png)
+
+* I also used the table I created in Module 5 (see image above) to display the scores from each of the measurements tested for each model used.
+
+The map visual showed that there were a concentrated number of transactions in the zip codes surrounding the office locations, but the scores of the models showed less than 2/3 accuracy.  The map, however, also showed that our offices did service the surrounding zip codes. I believe the statistical evidence was impacted by the Realtors used in the transactions, as their home office was what was used in the models.  I also believe there were limitations due to low inventory that impacted where people were willing to live within the city in order to gain housing.
+
+After interpreting the results, I wrote my conclusion:
+Based on the statistical evidence, the models show 65% accuracy at best when trying to predict the correlation of office location with a zip code of a transaction.  While this is useful information in terms of possibilities for building office locations, more information would be needed in order to concretely recommend making that investment. 
+
+### Abstract
+Due to the fact that the real estate industry has a strong impact on both individuals (micro) and an economy (macro), a real estate brokerage needs to be strategic in order to have successful impact. This project aims to determine if the location of a real estate brokerage office has an impact on the location of a brokerage's real estate transactions. Data from a real estate brokerage in the Omaha, NE, metropolitan area was collected for 2022.  This data was used compare the zip codes for each closed transaction to the office location of the Realtor representing the transaction. The data set of 3140 records was run trained and tested on three Classification models (K Number Neighbors, K Means Cluster, and Random Forest).  While the K Number Neighbors model was very similar, maximum accuracy was found using the Random Forest model, with an accuracy score of 63.8% and a Confusion Matrix score of 65%. 
+
+
+### Future Work
+Finally, I added final thoughts to my report about what could be done moving forward - whether with this particular data set, or by collecting an expanded data set.
+
+Future work could include extending this project to more than just 2022 data to determine if a larger timeframe would show a higher accuracy of correlation.  Perhaps the most intriguing future work for my brokers, however, is extending this project's philosophy to individual agents - to show whether their transactions are consolidated to specific areas (zip codes) within the Omaha, NE, metropolitan area.  This information could be used to validate marketing strategies or suggest new target areas for marketing.
 
 # Module 6 Overview: Final Project Report
