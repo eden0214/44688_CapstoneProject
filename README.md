@@ -36,12 +36,12 @@ In Module 1, I created an Overleaf account and began the process of understandin
 * I uploaded the zip file and began to modify the template report, renaming it "AndersonCapstoneProject." 
     * Modifying the report included naming my project, adding my name and personal information, and renaming the main outline points to align with my project.
     * I also wrote an introduction using prompts from our class assignment.
-* Once I began writing the introduction, I found online articles from reputable websites to use as supporting references.
+* Once I began writing the introduction, I found online articles from reputable websites to use as supporting references. [7] [14] [10]
     * At this point, it became necessary to start modifying the template bibliography.
     * I found an online citation generator that used BibTeX style, so that I could copy the citation directly to my bibliography.
     * I added citations to the report.
 * I also found my first image to use in my project report.
-    * I found the image online and saved a .png copy to my Overleaf file.
+    * I found the image online and saved a .png copy to my Overleaf file. [1]
     * I generated a citation for the image and added it to both the image description as well as the text that summarized the image.
 
 # Module 2 Overview: Data Collection
@@ -55,7 +55,7 @@ In Module 2, I curated data from a franchised website and began the process of u
     * I also identified the type of information that was contained in each attribute (column).
 * At that point, I began writing the description of the data in my report on Overleaf.  
     * I described how I attained the information and the fact I was given permission to use this data.
-    * I linked the data within the report, so I learned how to create a hyperlink within LaTeX.
+    * I linked the data within the report, so I learned how to create a hyperlink within LaTeX. [2]
     * I identified the major attributes for my project: Company, Postal Code, and Sales ID.
 * Finally, I began to describe the data preparation, which will be addressed more thoroughly and finalized in the next module.
 
@@ -65,7 +65,7 @@ In Module 3, I continued to work with the original data to prepare the data set 
     * I verified that all city names were spelled correctly.
     * I corrected 37 zip codes to remove the extra 4-digit formatting, so that all zip codes had five digits.
     * I looked up one incomplete address on the MLS to add the correct missing information. (This was necessary since a precise zip code was needed.  IF I had been looking to fill an attribute like sales volume, I could have used median or mean values.)
-    * I then removed transactions that occurred outside of the Omaha, NE, metropolitan area.
+    * I then removed transactions that occurred outside of the Omaha, NE, metropolitan area. [12]
 * At this time, I used the cleaned data to create a new CSV file that contained only the cleaned data set.
     * The new data file contained 3140 records.
     * Unnecessary/irrelevant attributes were removed.
@@ -85,8 +85,10 @@ In Module 3, I continued to work with the original data to prepare the data set 
     * Python was used to verify that the data was clean.
     * Python was used to verify that there were no null values in the main attributes.
     * Python was used to identify the data type of the dependent and independent variables - all integers.
-    * Finally, Python was used to create visualizations that allowed the data distribution to be reviewed.
+    * Finally, Python was used to create visualizations that allowed the data distribution to be reviewed. [3]
 * At this point, we were able to conclude that the data was indeed quality data that can be used to determine if a correlation exists between an office location and where a transaction occurs.
+
+You can find the Python code here: [Anderson_Capstone JupyterLab Notebook](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson_Capstone.ipynb). 
 
 # Module 4 Overview: Exploratory Data Analysis
 In Module 4, I began the data analysis portion of the project by performing the Exploratory Data Analysis (EDA).  EDA is a process to review the data by investigating the data set to summarize and analyze the attributes in order to gain a better understanding of what the data set has to offer.  EDA often involves visualization to demonstrate any patterns and potential relationships between the variables.  Making EDA an important part of the data analytics process allows for the data scientist (or analyst) to find outliers/anomalies, test hypotheses, and to check assumptions.  Statistical summaries and different visualization techniques are used to summarize the data and present it in multiple ways, so the best understanding of the data can be developed.
@@ -97,7 +99,7 @@ Exploratory data analysis is essential to all data science and data analytics pr
     * Univariate non-graphical:  A simple form of data analysis that is comprised of one variable.  Because of this, there are no causal relationships, and the main purpose is to find patterns within the single variable.
     * Univariate graphical: Similar to the univariate non-graphical method, the univariate graphical method deals with just one variable.  The difference, however, comes from the visualization of the patterns.  (Most common: stem-and-leaf plots, histograms, and boxplots)
     * Multivariate non-graphical: A form of analysis that shows a relationship between 2+ variables. This analysis typically occurs through cross-tabulation or statistics. 
-    * Multivariate graphical: Like the univariate graphical analysis, the multivariate graphical analysis uses visualization to display relationships between the 2+ variables.  (Most common: grouped bar plot, bar chart; other common: scatter plot, heat map, bubble chart)
+    * Multivariate graphical: Like the univariate graphical analysis, the multivariate graphical analysis uses visualization to display relationships between the 2+ variables.  (Most common: grouped bar plot, bar chart; other common: scatter plot, heat map, bubble chart) [12]
 * For my project, I found using the graphical methods to be more useful.  I first used histograms and boxplots to determine patterns and look for outliers.  I then used a scatterplot and heat map to analyze possible  correlations.
 
 ![Window Example](Sales_ID_Attribute.png)
@@ -122,7 +124,7 @@ During this phase, there were a a couple insights that could be drawn from this 
 * In addition, I am starting to better understand which visualizations help me understand the data more comprehensively:  For example, I appreciated the heatmap showing correlation, and while I found the boxplot of the OFFICE_ID variable to be helpful, it did not generate further understanding.  Similarly, using scatterplots may not be a helpful tool, since the SALES_ID attribute is not evenly distributed numerically.
 
 # Module 5 Overview: Predictive Analysis
-In Module 5, I continued the data analysis process by moving into the Predictive Analysis phase of my project.  Predictive analysis is the process of using the data set within a Machine Learning (ML) Pipeline by using an ML algorithm to generate a model that can be used to help make predictions for business decisions. An ML pipeline has 5 steps, and I have already completed the first 3: Data Collection (Module 2), Data Cleaning (Module 3), and Feature Extraction (Module 4).  In this module, I completed the fourth step, Model Validation, and I will complete the fifth step, Visualization, as a part of the next module.
+In Module 5, I continued the data analysis process by moving into the Predictive Analysis phase of my project.  Predictive analysis is the process of using the data set within a Machine Learning (ML) Pipeline by using an ML algorithm to generate a model that can be used to help make predictions for business decisions. An ML pipeline has 5 steps, and I have already completed the first 3: Data Collection (Module 2), Data Cleaning (Module 3), and Feature Extraction (Module 4).  [9] In this module, I completed the fourth step, Model Validation, and I will complete the fifth step, Visualization, as a part of the next module.
 
 Model validation is the process of using a data set to train and test a Machine Learning algorithm with the ultimate goal of creating a model that can be used to help guide business decisions.  (An ML algorithm is computer code that adapts to data by recognizing patterns and learning from them to produce a model.)  Before I could proceed, I had to determine which ML algorithms could work with my data set.  To do this, I used the following visualization:
 
@@ -155,11 +157,11 @@ For each of the modules, I completed the following steps.
 In Module 6, I sought to bring the project full circle by addressing how my findings addressed the initial goal/hypothesis.  I wrote a conclusion for my report and used that information to write the abstract at the beginning of the report.
 
 ### Related Work
-Before I worked on the conclusion, however, I found work related to my report, so that I could include it in my report.  I used Google Scholar to find articles relating to how to choose a location for a new office, how a Realtor decides which brokerage to join, and how a consumer chooses a Realtor.  I found research articles on each related topic and summarized them within my report.
+Before I worked on the conclusion, however, I found work related to my report, so that I could include it in my report.  I used Google Scholar to find articles relating to how to choose a location for a new office, how a Realtor decides which brokerage to join, and how a consumer chooses a Realtor.  I found research articles on each related topic and summarized them within my report. [8] [6] [11]
 
 ### Conclusion
 In order to determine the conclusion, I used several visualizations throughout the project, and two images best displayed the information discovered. 
-* I used a map generated in Tableau that showed the distribution of transactions by zip code compared to office locations.
+* I used a map generated in Tableau that showed the distribution of transactions by zip code compared to office locations. [4]
 
 ![Window Example](Zip_Code_Map.png)
 
@@ -180,3 +182,39 @@ Finally, I added final thoughts to my report about what could be done moving for
 Future work could include extending this project to more than just 2022 data to determine if a larger timeframe would show a higher accuracy of correlation.  Perhaps the most intriguing future work for my brokers, however, is extending this project's philosophy to individual agents - to show whether their transactions are consolidated to specific areas (zip codes) within the Omaha, NE, metropolitan area.  This information could be used to validate marketing strategies or suggest new target areas for marketing.
 
 # Module 6 Overview: Final Project Report
+
+# References
+References
+1. Agarwal, S.: (Feb 2018), https://www.sudeep.co/data-science/2018/02/09/
+Understanding-the-Data-Science-Lifecycle.html
+2. Anderson, E.: 44688 capstone project / 2022 closed business journal csv
+data (Mar 2023), https://github.com/eden0214/44688 CapstoneProject/blob/
+main/2022 Closed Business Journal.csv
+3. Anderson, E.: 44688 capstone project / anderson capstone python file
+(APR 2023), https://github.com/eden0214/44688 CapstoneProject/blob/main/
+Anderson Capstone.ipynb
+4. Anderson, E.: 44688 capstone project / zip code map (Apr 2023), https://github.
+com/eden0214/44688 CapstoneProject/blob/main/Zip Code Map.png
+5. Anderson, J., Bandur, M.: How ’bidding wars’ are dramatically impacting
+valuations for omaha homeowners (Mar 2022), https://www.ketv.com/article/
+omaha-homeowners-valuations-real-estate-market/39282367
+6. Barwick, P.J., Wong, M.: Competition in the real estate brokerage industry: A ... -
+brookings (Dec 2019), https://www.brookings.edu/wp-content/uploads/2019/12/
+ES-12.12.19-Barwick-Wong.pdf
+7. Florida, R.: What makes us the happiest about the places we live
+(Sep 2014), https://www.bloomberg.com/news/articles/2014-09-19/
+what-makes-us-the-happiest-about-the-places-we-live
+8. G¨orener, A., Hacıoglu, U., Dincer, H.: (Apr 2013), https://www.ssbfnet.com/ojs/
+index.php/ijfbs/article/view/430/385
+9. M, S.: What is a pipeline in machine learning? how to create one? (Dec 2019), https://medium.com/analytics-vidhya/
+what-is-a-pipeline-in-machine-learning-how-to-create-one-bda91d0ceaca
+10. 7 reasons to work with a realtor® (Jun 2011), https://www.nar.realtor/magazine/
+tools/client-education/handouts-for-buyers/7-reasons-to-work-with-a-realtor
+11. Newell, S.J., Plank, R.E.: The importance of relationship and consultative ... -
+baylor university (Mar 2012), https://www.baylor.edu/business/kellercenter/doc.
+php/194347.pdf
+12. Newsletter, I.: What is exploratory data analysis?, https://www.ibm.com/topics/
+exploratory-data-analysis
+13. The omaha metro (Oct 2020), https://rivercityomaha.com/the-omaha-metro/
+14. Weinstock, L.R.: Introduction to u.s. economy: Housing market (Jan 2023), https:
+//sgp.fas.org/crs/misc/IF11327.pdf
