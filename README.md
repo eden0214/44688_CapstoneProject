@@ -181,7 +181,8 @@ Finally, I added final thoughts to my report about what could be done moving for
 
 Future work could include extending this project to more than just 2022 data to determine if a larger timeframe would show a higher accuracy of correlation.  Perhaps the most intriguing future work for my brokers, however, is extending this project's philosophy to individual agents - to show whether their transactions are consolidated to specific areas (zip codes) within the Omaha, NE, metropolitan area.  This information could be used to validate marketing strategies or suggest new target areas for marketing.
 
-# Module 6 Overview: Final Project Report
+# Module 7 Overview: Final Project Report
+In the final module, I submitted my report for peer review.  (I will post more after reviews are received.)
 
 # References
 References
