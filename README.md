@@ -232,3 +232,11 @@ exploratory-data-analysis
 //sgp.fas.org/crs/misc/IF11327.pdf
 
 ## Referenced Online Tutorials
+
+Understanding LaTeX:        https://youtu.be/eP_BlHJLL3I 
+Data Project Planning:      https://www.youtube.com/watch?v=MpF9HENQjDo
+Data Cleaning:              https://youtu.be/fhi4dOhmW-g
+Exploratory Data Analysis:  https://youtu.be/QWgg4w1SpJ8
+Predictive Data Analysis:   https://youtu.be/7O4dpR9QMIM
+
+
