@@ -3,7 +3,7 @@
 ## An Analysis of Real Estate Transactions Using Zip Codes and Office Locations
 
 # Final Project Report
-[Eden Anderson Capstone Report](https://www.overleaf.com/read/pvbhscbngxfm). 
+[Eden Anderson Capstone Report](https://www.overleaf.com/read/pvbhscbngxfm) 
 
 # Data Source
 You can find the data set here: [Anderson_Capstone Cleaned Data Source](https://github.com/eden0214/44688_CapstoneProject/blob/main/2022_Closed_Business_Journal_CLEANSED.csv). 
@@ -230,3 +230,5 @@ exploratory-data-analysis
 13. The omaha metro (Oct 2020), https://rivercityomaha.com/the-omaha-metro/
 14. Weinstock, L.R.: Introduction to u.s. economy: Housing market (Jan 2023), https:
 //sgp.fas.org/crs/misc/IF11327.pdf
+
+## Referenced Online Tutorials
