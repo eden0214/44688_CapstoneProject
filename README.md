@@ -201,7 +201,7 @@ I received 6 suggestions/comments on my submission - 5 from my peers, and 1 from
 
 I reviewed the suggestions and made appropriate changes to my report.
 
-My final report can be found here:  [Anderson_Capstone Final Report](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson&20Final%20Capstone%20Report.pdf)
+My final report can be found here:  [Anderson_Capstone Final Report](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson%20Final%20Capstone%20Report.pdf)
 
 
 
