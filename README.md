@@ -191,7 +191,17 @@ Future work could include extending this project to more than just 2022 data to 
 # Module 7 Overview: Final Project Report
 In the final module, I submitted my report for peer review.  
 
-(I will post more after reviews are received.)
+I received 6 suggestions/comments on my submission - 5 from my peers, and 1 from the professor:
+* Peer - Improve readability by adjusting an image that cuts a paragraph in half.
+* Peer - Use hyperlinks to take readers to a figure when it's not on the same page.
+* Peer - Make sure that Tableau usage is clearly described in the EDA stage.
+* Peer - Remark about completeness of report and documented progress.
+* Peer - Add subsections under Predictive Analysis for ease of reading and to break up documentation.
+* Professor - Explain conclusion using non-numeric terms to make more practical.
+
+I reviewed the suggestions and made appropriate changes to my report.
+
+My final report can be found here:  [Anderson_Capstone Final Report](https://github.com/eden0214/44688_CapstoneProject/blob/main/Anderson&20Final%20Capstone%20Report.pdf)
 
 
 
